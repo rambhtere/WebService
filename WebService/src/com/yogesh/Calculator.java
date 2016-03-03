@@ -26,5 +26,7 @@ public class Calculator {
 		return a/b;
 	}
 	
-	
+	public String concatenate(String a, String b){
+		return a+b;
+	}
 }
