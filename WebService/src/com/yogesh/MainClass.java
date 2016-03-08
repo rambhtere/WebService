@@ -8,6 +8,7 @@ public class MainClass {
 		
 		Endpoint.publish("http://localhost:8080/WebService/Calculate",new Calculator());
 		System.out.println("Service Publised");
+		System.out.println("Additional Changes");
 	}
 
 }
